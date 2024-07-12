@@ -1,3 +1,4 @@
+
 "use client";
 import { Button } from "@/components/ui/button"
 import {
@@ -113,7 +114,7 @@ export default function Home() {
         </CardContent>
       </Card>
       <div className="mt-10 bg-gray-400 h-0.5 w-auto mx-5"></div>
-      {showFirst &&  <div>
+      {showFirrt &&  <div>
       <Card className='ml-10 mr-10 mt-10'>
         <CardHeader>
           <CardTitle className='text-3xl'>New 3-D Printer!</CardTitle>
@@ -154,5 +155,3 @@ export default function Home() {
       </Card>
     </div>}
     </div>
-  );
-}
